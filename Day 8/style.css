@@ -1,0 +1,44 @@
+body {
+    background-color: #AEB8FE;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dice {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    background-color: #EFE5DC;
+    margin: 100px;
+}
+
+.dot {
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 15px;
+    background-color: black;   
+}
+
+#centre {
+    background-color: #EFE5DC;
+}
+
+.upper-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.45em;
+}
+
+.middle-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.45em;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.45em;
+}
