@@ -1,0 +1,22 @@
+<!DOCTYPE = html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <form class="tweetForm">
+            <label for="tweet">Write your tweet:</label><br>
+            <textarea onkeyup="charLimitChange()" id="tweet" name="tweet" rows="7" cols="20">            
+            </textarea>
+            <br>
+             <div id="charCount">
+             </div>
+             <input type="submit" value="Tweet" id="submit">
+        </form>
+
+        <script src="index.js"></script>
+    </body>
+
+</html>

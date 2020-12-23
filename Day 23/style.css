@@ -1,0 +1,33 @@
+body {
+    background-color: #023F6A;
+    color: white;
+}
+
+.tweetForm {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tweet {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border-color: blue;
+    padding: 10px;
+    margin: 10px 0 5px 0;
+}
+
+#charCount {
+    color: lightgreen;
+}
+
+#submit {
+    background-color: #1DA1F2;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
